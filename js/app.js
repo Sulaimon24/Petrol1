@@ -92,7 +92,7 @@ const $$ = (sel, el = document) => Array.from(el.querySelectorAll(sel));
   if (!list || !search) return;
   let branches = [];
   try {
-    const res = await fetch('/data/branches.json', { cache: 'no-store' });
+    const res = await fetch('data/branches.json', { cache: 'no-store' });
     branches = await res.json();
   } catch (e) {
     branches = [];
@@ -134,7 +134,7 @@ const $$ = (sel, el = document) => Array.from(el.querySelectorAll(sel));
 
   const load = async () => {
     try {
-      const res = await fetch('/data/prices.json', { cache: 'no-store' });
+      const res = await fetch('data/prices.json', { cache: 'no-store' });
       const json = await res.json();
       data = json;
       renderTable();
