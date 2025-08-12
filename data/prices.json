@@ -1,0 +1,18 @@
+{
+  "lastUpdated": "2025-08-11T12:00:00Z",
+  "currency": "NGN",
+  "items": [
+    {
+      "product": "PMS (Petrol)",
+      "price": 890
+    },
+    {
+      "product": "AGO (Diesel)",
+      "price": 1250
+    },
+    {
+      "product": "LPG (Gas) / kg",
+      "price": 1500
+    }
+  ]
+}

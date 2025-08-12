@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- =========================
+       GLOBAL HEAD: meta, fonts, theme
+       ========================= -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JELFAD • Premium Fuel Experience</title>
+  <meta name="description" content="Jelfad — premium, modern fuel stations with nationwide branches in Nigeria." />
+  <link rel="icon" href="assets/hero.svg" />
+
+  <!-- Inter + DM Serif for luxury vibe -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <!-- =========================
+         HEADER / NAV
+         ========================= -->
+    <header class="site-header glassy">
+      <div class="container">
+        <a class="brand" href="index.html">JELFAD</a>
+        <nav class="nav">
+          <a href="about2.html">About</a>
+          <a href="leadership.html">Leadership</a>
+          <a href="branches.html">Branches</a>
+          <a href="services.html">Services</a>
+          <!-- <a href="/aviation.html">Aviation</a>
+          <a href="/lubricants.html">Lubricants</a> -->
+          <a href="hse.html">HSE</a>
+          <a href="csr.html">CSR</a>
+          <a href="news.html">News</a>
+          <a href="careers.html">Careers</a>
+          <a href="prices.html">Prices</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html" class="btn btn-glass">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+  <!-- =========================
+       HERO SECTION (with background image & H1)
+       ========================= -->
+  <section class="hero" style="--hero-bg:url('assets/hero.svg')">
+    <div class="container hero-inner">
+      <div class="hero-copy reveal-up">
+        <h1>Premium Fuel. Modern Experience.</h1>
+        <p>Fast service, fair prices, clean stations — wherever you are.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-glass" href="branches.html">Find a Branch</a>
+          <a class="btn btn-outline" href="prices.html">See Prices</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       PRICE TICKER (manual JSON)
+       ========================= -->
+  <section class="ticker">
+    <div class="container">
+      <div class="ticker-track" id="price-ticker" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- =========================
+       FEATURES / VALUE PROPS
+       ========================= -->
+  <section class="features">
+    <div class="container grid-3">
+      <div class="card reveal-up">
+        <img src="css/station.jpg" alt="Modern forecourt">
+        <h3>Modern Stations</h3>
+        <p>Glassy, well-lit, and secure stations designed for comfort and speed.</p>
+      </div>
+      <div class="card reveal-up">
+        <img src="css/station2.jpg" alt="Transparent pricing">
+        <h3>Transparent Pricing</h3>
+        <p>Upfront prices across branches — no surprises.</p>
+      </div>
+      <div class="card reveal-up">
+        <img src="css/station.jpg" alt="More than fuel">
+        <h3>More Than Fuel</h3>
+        <p>Lube bay, car wash, and convenience store at select locations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       STATS (counter-up)
+       ========================= -->
+  <section class="stats">
+    <div class="container grid-3">
+      <div class="stat reveal-up"><span data-count="25">0</span><small>Branches</small></div>
+      <div class="stat reveal-up"><span data-count="1200">0</span><small>Daily Customers</small></div>
+      <div class="stat reveal-up"><span data-count="98">0</span><small>% Satisfaction</small></div>
+    </div>
+  </section>
+
+  <!-- =========================
+       CTA STRIP
+       ========================= -->
+  <section class="cta">
+    <div class="container cta-inner">
+      <h2>We’re open — drive in today</h2>
+      <div class="cta-actions">
+        <a class="btn btn-primary btn-glass" href="branches.html">Nearest Branch</a>
+        <a class="btn btn-outline" href="contact.html">Talk to Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+         FOOTER
+         ========================= -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>JELFAD</h4>
+          <p>Fueling excellence across Nigeria with premium service, fair pricing, and modern stations.</p>
+        </div>
+        <div>
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="branches.html">Branch Locator</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="prices.html">Price Ticker</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <ul>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="governance.html">Governance</a></li>
+            <li><a href="hse.html">HSE</a></li>
+            <li><a href="csr.html">CSR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <small>© <span id="year"></span> JELFAD. All rights reserved.</small>
+        <div class="footer-links">
+          <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+  <div class="custom-cursor"></div>
+  <div class="cursor-ripple"></div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Jelfad HQ",
+    "city": "Ibadan",
+    "address": "Ring Road, Ibadan, Oyo",
+    "phone": "+234 800 000 0001",
+    "hours": "24/7"
+  },
+  {
+    "name": "Jelfad Bodija",
+    "city": "Ibadan",
+    "address": "Bodija, Ibadan, Oyo",
+    "phone": "+234 800 000 0002",
+    "hours": "6am\u201310pm"
+  },
+  {
+    "name": "Jelfad Lekki",
+    "city": "Lagos",
+    "address": "Lekki Phase 1, Lagos",
+    "phone": "+234 800 000 0003",
+    "hours": "24/7"
+  },
+  {
+    "name": "Jelfad Wuse",
+    "city": "Abuja",
+    "address": "Wuse 2, FCT",
+    "phone": "+234 800 000 0004",
+    "hours": "6am\u201310pm"
+  }
+]
